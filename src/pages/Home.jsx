@@ -14,6 +14,9 @@ import Company from "../components/Company";
 import Testimonial from "../components/Testimonial.jsx";
 import Question from "../components/Question.jsx";
 import Apps from "../components/Apps.jsx";
+import Article from "../components/Article.jsx";
+import Info from "../components/Info.jsx";
+import Footer from "../components/Footer.jsx";
 // import Preloader from '../components/Preloader';
 
 
@@ -51,6 +54,9 @@ const Home = () => {
       <Company />
       <Question />
       <Apps />
+      <Article />
+      <Info />
+      <Footer />
 
   </div>
 </>
