@@ -3,10 +3,13 @@ import Header from '../components/Header';
 
 const Home = () => {
     return (
-        <div>
-            {/* <Preloader /> */}
-            <Header />
-        </div>
+            <>
+  {/* Main Wrapper */}
+  <div className="main-wrapper">
+    <Header />
+  </div>
+</>
+
     );
 };
 
