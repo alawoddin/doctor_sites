@@ -9,6 +9,11 @@ import Menu from '../components/Menu';
 import Services from '../components/Services';
 import Speciality from '../components/Speciality';
 import Reasons from "../components/Reasons";
+import Bookus from "../components/Bookus";
+import Company from "../components/Company";
+import Testimonial from "../components/Testimonial.jsx";
+import Question from "../components/Question.jsx";
+import Apps from "../components/Apps.jsx";
 // import Preloader from '../components/Preloader';
 
 
@@ -41,6 +46,12 @@ const Home = () => {
      <Doctor />
       <Services />
       <Reasons />
+      <Bookus />
+      <Testimonial />
+      <Company />
+      <Question />
+      <Apps />
+
   </div>
 </>
 
