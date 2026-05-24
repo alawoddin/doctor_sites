@@ -1,12 +1,12 @@
 
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
-
-    <h1 className="text-2xl font-bold">React Vite Template</h1>
+      <Home />
     </>
   )
 }
