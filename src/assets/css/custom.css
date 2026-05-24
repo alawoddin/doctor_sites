@@ -58000,7 +58000,7 @@ ul li {
 
 /****** UTILS ******/
 .banner-section.banner-sec-one {
-  background: url("../img/bg/home-banner-bg.png") no-repeat;
+  background: url("/img/bg/home-banner-bg.png") no-repeat;
   background-size: cover;
 }
 @media (max-width: 991.98px) {
@@ -58123,7 +58123,7 @@ ul li {
 }
 .banner-section.banner-sec-one .banner-img::before {
   content: "";
-  background: url("../img/bg/banner-bg-01.png") no-repeat;
+  background: url("/img/bg/banner-bg-01.png") no-repeat;
   background-position: top center;
   width: 100%;
   height: 100%;

@@ -14,19 +14,19 @@ const Banner = () => {
                 <span className="avatar avatar-rounded">
                   <img
                     className="border border-white"
-                    src="assets/img/doctors/doctor-thumb-22.jpg"
+                    src="/img/doctors/doctor-thumb-22.jpg"
                     alt="img"
                   />
                 </span>
                 <span className="avatar avatar-rounded">
                   <img
                     className="border border-white"
-                    src="assets/img/doctors/doctor-thumb-23.jpg"
+                    src="/img/doctors/doctor-thumb-23.jpg"
                     alt="img"
                   />
                 </span>
                 <span className="avatar avatar-rounded">
-                  <img src="assets/img/doctors/doctor-thumb-24.jpg" alt="img" />
+                  <img src="/img/doctors/doctor-thumb-24.jpg" alt="img" />
                 </span>
               </div>
               <div className="me-2">
@@ -46,7 +46,7 @@ const Banner = () => {
             <h1 className="display-5">
               Discover Health: Find Your Trusted{" "}
               <span className="banner-icon">
-                <img src="assets/img/icons/video.svg" alt="img" />
+                <img src="/img/icons/video.svg" alt="img" />
               </span>{" "}
               <span className="text-gradient">Doctors</span> Today
             </h1>
@@ -95,7 +95,7 @@ const Banner = () => {
         <div className="col-lg-5">
           <div className="banner-img aos" data-aos="fade-up">
             <img
-              src="assets/img/banner/banner-doctor.svg"
+              src="/img/banner/banner-doctor.svg"
               className="img-fluid"
               alt="patient-image"
             />
@@ -108,13 +108,13 @@ const Banner = () => {
             <div className="banner-patient">
               <div className="avatar-list-stacked avatar-group-sm">
                 <span className="avatar avatar-rounded">
-                  <img src="assets/img/patients/patient19.jpg" alt="img" />
+                  <img src="/img/patients/patient19.jpg" alt="img" />
                 </span>
                 <span className="avatar avatar-rounded">
-                  <img src="assets/img/patients/patient16.jpg" alt="img" />
+                  <img src="/img/patients/patient16.jpg" alt="img" />
                 </span>
                 <span className="avatar avatar-rounded">
-                  <img src="assets/img/patients/patient18.jpg" alt="img" />
+                  <img src="/img/patients/patient18.jpg" alt="img" />
                 </span>
               </div>
               <p>15K+</p>
@@ -126,32 +126,32 @@ const Banner = () => {
     </div>
     <div className="banner-bg">
       <img
-        src="assets/img/bg/banner-bg-02.png"
+        src="/img/bg/banner-bg-02.png"
         alt="img"
         className="banner-bg-01"
       />
       <img
-        src="assets/img/bg/banner-bg-03.png"
+        src="/img/bg/banner-bg-03.png"
         alt="img"
         className="banner-bg-02"
       />
       <img
-        src="assets/img/bg/banner-bg-04.png"
+        src="/img/bg/banner-bg-04.png"
         alt="img"
         className="banner-bg-03"
       />
       <img
-        src="assets/img/bg/banner-bg-05.png"
+        src="/img/bg/banner-bg-05.png"
         alt="img"
         className="banner-bg-04"
       />
       <img
-        src="assets/img/bg/banner-icon-01.svg"
+        src="/img/bg/banner-icon-01.svg"
         alt="img"
         className="banner-bg-05"
       />
       <img
-        src="assets/img/bg/banner-icon-01.svg"
+        src="/img/bg/banner-icon-01.svg"
         alt="img"
         className="banner-bg-06"
       />

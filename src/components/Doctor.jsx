@@ -1,5 +1,47 @@
-
+import { useEffect } from "react";
 const Doctor = () => {
+
+  useEffect(() => {
+    // AOS
+    if (window.AOS) {
+      window.AOS.init({
+        duration: 1000,
+        once: true,
+      });
+
+      window.AOS.refresh();
+    }
+
+    // Owl Carousel
+    if (window.$ && window.$(".doctors-slider").owlCarousel) {
+      window.$(".doctors-slider").owlCarousel({
+        loop: true,
+        margin: 24,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 2,
+          },
+          992: {
+            items: 3,
+          },
+          1200: {
+            items: 4,
+          },
+        },
+      });
+    }
+  }, []);
+
+
+
     return (
         <div>
             <>
@@ -17,7 +59,7 @@ const Doctor = () => {
         <div className="card">
           <div className="card-img card-img-hover">
             <a href="doctor-profile.html">
-              <img src="assets/img/doctor-grid/doctor-grid-01.jpg" alt="" />
+              <img src="/img/doctor-grid/doctor-grid-01.jpg" alt="" />
             </a>
             <div className="grid-overlay-item d-flex align-items-center justify-content-between">
               <span className="badge bg-orange">
@@ -72,7 +114,7 @@ const Doctor = () => {
         <div className="card">
           <div className="card-img card-img-hover">
             <a href="doctor-profile.html">
-              <img src="assets/img/doctor-grid/doctor-grid-02.jpg" alt="" />
+              <img src="/img/doctor-grid/doctor-grid-02.jpg" alt="" />
             </a>
             <div className="grid-overlay-item d-flex align-items-center justify-content-between">
               <span className="badge bg-orange">
@@ -127,7 +169,7 @@ const Doctor = () => {
         <div className="card">
           <div className="card-img card-img-hover">
             <a href="doctor-profile.html">
-              <img src="assets/img/doctor-grid/doctor-grid-03.jpg" alt="" />
+              <img src="/img/doctor-grid/doctor-grid-03.jpg" alt="" />
             </a>
             <div className="grid-overlay-item d-flex align-items-center justify-content-between">
               <span className="badge bg-orange">
@@ -182,7 +224,7 @@ const Doctor = () => {
         <div className="card">
           <div className="card-img card-img-hover">
             <a href="doctor-profile.html">
-              <img src="assets/img/doctor-grid/doctor-grid-04.jpg" alt="" />
+              <img src="/img/doctor-grid/doctor-grid-04.jpg" alt="" />
             </a>
             <div className="grid-overlay-item d-flex align-items-center justify-content-between">
               <span className="badge bg-orange">
@@ -237,7 +279,7 @@ const Doctor = () => {
         <div className="card">
           <div className="card-img card-img-hover">
             <a href="doctor-profile.html">
-              <img src="assets/img/doctor-grid/doctor-grid-05.jpg" alt="" />
+              <img src="/img/doctor-grid/doctor-grid-05.jpg" alt="" />
             </a>
             <div className="grid-overlay-item d-flex align-items-center justify-content-between">
               <span className="badge bg-orange">
@@ -290,7 +332,7 @@ const Doctor = () => {
           </div>
         </div>
       </div>
-      <div className="doctor-nav nav-bottom owl-nav" />
+      <div className="doctor-nav nav-bottom owl-nav disabled" />
     </div>
   </section>
   {/* /Doctor Section */}
