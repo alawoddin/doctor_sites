@@ -16,10 +16,10 @@ const Speciality = () => {
       <div className="owl-carousel spciality-slider aos" data-aos="fade-up">
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-01.jpg" alt="img" />
+            <img src="/img/specialities/speciality-01.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-01.svg"
+                src="/img/specialities/speciality-icon-01.svg"
                 alt="img"
               />
             </span>
@@ -31,10 +31,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-02.jpg" alt="img" />
+            <img src="/img/specialities/speciality-02.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-02.svg"
+                src="/img/specialities/speciality-icon-02.svg"
                 alt="img"
               />
             </span>
@@ -49,7 +49,7 @@ const Speciality = () => {
             <img src="assets/img/specialities/speciality-03.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-03.svg"
+                src="/img/specialities/speciality-icon-03.svg"
                 alt="img"
               />
             </span>
@@ -61,10 +61,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-04.jpg" alt="img" />
+            <img src="/img/specialities/speciality-04.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-04.svg"
+                src="/img/specialities/speciality-icon-04.svg"
                 alt="img"
               />
             </span>
@@ -76,10 +76,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-05.jpg" alt="img" />
+            <img src="/img/specialities/speciality-05.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-05.svg"
+                src="/img/specialities/speciality-icon-05.svg"
                 alt="img"
               />
             </span>
@@ -91,10 +91,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-06.jpg" alt="img" />
+            <img src="/img/specialities/speciality-06.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-06.svg"
+                src="/img/specialities/speciality-icon-06.svg"
                 alt="img"
               />
             </span>
@@ -106,10 +106,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-07.jpg" alt="img" />
+            <img src="/img/specialities/speciality-07.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-07.svg"
+                src="/img/specialities/speciality-icon-07.svg"
                 alt="img"
               />
             </span>
@@ -121,10 +121,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-08.jpg" alt="img" />
+            <img src="/img/specialities/speciality-08.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-08.svg"
+                src="/img/specialities/speciality-icon-08.svg"
                 alt="img"
               />
             </span>
@@ -136,10 +136,10 @@ const Speciality = () => {
         </div>
         <div className="spaciality-item">
           <div className="spaciality-img">
-            <img src="assets/img/specialities/speciality-03.jpg" alt="img" />
+            <img src="/img/specialities/speciality-03.jpg" alt="img" />
             <span className="spaciality-icon">
               <img
-                src="assets/img/specialities/speciality-icon-03.svg"
+                src="/img/specialities/speciality-icon-03.svg"
                 alt="img"
               />
             </span>
